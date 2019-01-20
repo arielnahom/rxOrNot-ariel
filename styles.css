@@ -1,0 +1,67 @@
+body{
+    direction: rtl;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfb;
+}
+#app-header{
+    border-bottom: 1px solid #cccccc;
+    height: 50px;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px #f3f3f3;
+    margin-bottom: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    font-family: Roboto;
+    color:#454545;
+    background-color: white;
+}
+#search-wikipedia-input{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    height: 39px;
+    width: 630px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 17px;
+    outline: none;
+    color: rgba(0,0,0,.87);
+}
+#search-wikipedia-input:focus{
+    border: 1px solid #c0c3c5;
+}
+#search-wikipedia-input:hover{
+    border: 1px solid #c0c3c5;
+}
+#results{
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    margin: 0 auto;
+    padding-right: 18px;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 1px solid #e6e8ea;
+    border-left: 1px solid #e6e8ea;
+    border-right: 1px solid #e6e8ea;
+}
+
+#results .result{
+    width: 170px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(0,0,0,.77);
+    padding: 2px;
+}
+
+#results .result:hover{
+    color: black;
+}
